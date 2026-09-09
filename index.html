@@ -3,67 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO & Keyword -->
-    <title>Portfolio & Digital Marketing | แนะนำตัวและผลงาน</title>
-    <meta name="description" content="เว็บไซต์ Portfolio และรวบรวมผลงานการพัฒนาเว็บ การวิเคราะห์การตลาดดิจิทัล โดยนักศึกษาขอนแก่น">
-    <meta name="keywords" content="Portfolio, Web Developer, Digital Marketing, ขอนแก่น, ผลงานนักศึกษา">
+    
+    <!-- SEO Optimization & Keywords -->
+    <title>ธนวุฒิ แก้วสีหา (18FAREZ) | Portfolio & Music Producer</title>
+    <meta name="description" content="เว็บไซต์ส่วนตัวและ Portfolio ของ ธนวุฒิ แก้วสีหา (18FAREZ) นักศึกษามหาวิทยาลัยศรีปทุม ขอนแก่น และ Music Producer">
+    <meta name="keywords" content="ธนวุฒิ แก้วสีหา, 18FAREZ, ศรีปทุม ขอนแก่น, SPUKK, Music Producer, ทำเพลง, Portfolio">
+    <meta name="author" content="ธนวุฒิ แก้วสีหา">
+    
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header & Navigation -->
+    <!-- Navigation Header -->
     <header>
-        <h1>Personal Portfolio & Digital Marketing</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">เกี่ยวกับฉัน</a></li>
-                <li><a href="#portfolio">ผลงาน (Portfolio)</a></li>
-                <li><a href="#articles">บทความ (Content)</a></li>
-                <li><a href="#contact">ติดต่อ</a></li>
-            </ul>
-        </nav>
+        <div class="nav-container">
+            <div class="logo">18FAREZ<span>.</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#about">เกี่ยวกับฉัน</a></li>
+                    <li><a href="#education">การศึกษา</a></li>
+                    <li><a href="#portfolio">ผลงานเพลง</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="profile.jpg" alt="ธนวุฒิ แก้วสีหา 18FAREZ">
+            </div>
+            <div class="hero-text">
+                <span class="badge">Digital Marketing Portfolio</span>
+                <h1>สวัสดีครับ ผม <span>ธนวุฒิ แก้วสีหา</span></h1>
+                <h2>aka <strong>18FAREZ</strong> | Music Producer & Student</h2>
+                <p>นักศึกษาชั้นปีที่ 2 มหาวิทยาลัยศรีปทุม ขอนแก่น ผู้มีความหลงใหลในการทำเพลง การผลิตดนตรี และเทคโนโลยีการตลาดดิจิทัล</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary"><i class="fa-solid fa-play"></i> ฟังผลงานเพลง</a>
+                    <a href="#contact" class="btn btn-secondary"><i class="fa-envelope"></i> ติดต่อเรา</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
-    <section id="about">
-        <h2>เกี่ยวกับฉัน (About Me)</h2>
-        <p>ยินดีต้อนรับสู่เว็บไซต์ส่วนตัว แหล่งรวบรวมผลงานด้านการพัฒนาเว็บไซต์และการวางแผนการตลาดดิจิทัล</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">เกี่ยวกับฉัน (About Me)</h2>
+            <div class="about-content">
+                <p>ผม <strong>ธนวุฒิ แก้วสีหา</strong> ปัจจุบันเป็นนักศึกษาชั้นปีที่ 2 ที่ มหาวิทยาลัยศรีปทุม เขตขอนแก่น นอกจากด้านการเรียนแล้ว งานอดิเรกและความชื่นชอบหลักของผมคือการทำเพลง โดยใช้ชื่อในวงการว่า <strong>18FAREZ</strong> ซึ่งสร้างสรรค์ผลงานเพลงและบีตในสไตล์ที่เป็นเอกลักษณ์</p>
+            </div>
+        </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>ผลงานที่ผ่านมา (Portfolio)</h2>
-        <article class="project-card">
-            <h3>SPUKK Delivery App Prototype</h3>
-            <img src="images/spukk-delivery.jpg" alt="แอปพลิเคชันคำนวณค่าจัดส่ง SPUKK Delivery">
-            <p>ระบบคำนวณค่าบริการจัดส่งสินค้าภายในมหาวิทยาลัย ตามระยะทางและน้ำหนัก</p>
-        </article>
-        <article class="project-card">
-            <h3>Smart Bin Automatic System</h3>
-            <img src="images/smart-bin.jpg" alt="ระบบถังขยะอัจฉริยะวัดระดับขยะด้วย Ultrasonic Sensor">
-            <p>โปรเจกต์ฮาร์ดแวร์ต้นแบบการจัดการขยะอัจฉริยะด้วย Arduino</p>
-        </article>
+    <!-- Education Section -->
+    <section id="education" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">ประวัติการศึกษา (Education)</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fa-solid fa-graduation-cap card-icon"></i>
+                    <h3>ระดับอุดมศึกษา (ปัจจุบัน)</h3>
+                    <p class="highlight">มหาวิทยาลัยศรีปทุม เขตขอนแก่น</p>
+                    <p>นักศึกษาชั้นปีที่ 2</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-school card-icon"></i>
+                    <h3>ระดับมัธยมศึกษา</h3>
+                    <p class="highlight">โรงเรียนประถมปรีดาภรณ์ อ.กระนวน</p>
+                    <p>สายการเรียน วิทย์ - คณิต</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Content / Blog Section for Marketing -->
-    <section id="articles">
-        <h2>บทความและการวิเคราะห์ (Digital Content)</h2>
-        <p>การปรับใช้ Digital Transformation Canvas และ SWOT Matrix ในการทำธุรกิจยุคใหม่...</p>
+    <!-- Portfolio Section (Content & Backlinks) -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">ผลงาน & งานอดิเรก (Portfolio & Music)</h2>
+            <p class="section-subtitle">รวมผลงานเพลง การผลิตบีต และช่องทางการติดตาม 18FAREZ</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="media-placeholder">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <h3>18FAREZ Official Track</h3>
+                    <p>สร้างสรรค์ดนตรีแนว Hip-Hop / Trap Producer</p>
+                    <!-- External Backlink Support -->
+                    <a href="https://github.com" target="_blank" class="btn-link">ฟังเพลงบน YouTube <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="media-placeholder">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3>Music Production & Beat Making</h3>
+                    <p>บริการทำบีตเพลง อัดเสียง และ Mix & Mastering</p>
+                    <a href="https://www.spu.ac.th" target="_blank" class="btn-link">เยี่ยมชม SPU Website <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- Backlinks & Contact Section -->
-    <section id="contact">
-        <h2>ช่องทางการติดต่อ & Social Links (Backlinks)</h2>
-        <p>สามารถติดตามผลงานและติดต่อได้ผ่านช่องทางด้านล่าง:</p>
-        <ul>
-            <li>GitHub: <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></li>
-        </ul>
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">ช่องทางการติดต่อ (Contact)</h2>
+            <div class="contact-box">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <a href="mailto:thanawut.kae@spumail.net">thanawut.kae@spumail.net</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-university"></i>
+                    <div>
+                        <h4>มหาวิทยาลัย</h4>
+                        <p>มหาวิทยาลัยศรีปทุม วิทยาเขตขอนแก่น</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Personal Portfolio. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Thanawut Kaewseeha (18FAREZ). All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <!-- Interactive JavaScript -->
+    <script>
+        // Smooth Scrolling for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
